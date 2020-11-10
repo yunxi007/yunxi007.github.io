@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta language = "zh-CN">
+		<meta charset="utf-8">
+		<title>注册</title>
+		<h1>新同学注册</h1>
+		<table width="700" border="10">
+			<style>
+				#male{
+					font-color:blue;
+				}
+				#female{
+					font-color:rgb(226, 166, 223);
+				}
+			</style>
+			<tr>
+				<td>姓名</td>
+				<td>
+					<input type="text" value="张三">
+					<input type="text" value="备用名">
+					
+					
+				</td>
+			</tr>
+			<tr>
+				<td>性别</td>
+				<td>
+					<input type = "radio" name="sex" id = "male"><label for = "male" ><img src="logos/male.png"> 男</img></label>
+					<input type = "radio" name="sex" id = "female"><label for = "female"><img src="logos/female.png"> 女</img></label>
+					<input type = "radio" name="sex" id = "double"><label for = "double"><img src="logos/female.png"> <img src="logos/male.png">双</img></label>
+
+				</td>
+			</tr><tr>
+				<td>性取向</td>
+				<td>
+					<input type = "radio" name="sexc" id = "male"><label for = "male"><img src="logos/male.png"> 男</img></label>
+					<input type = "radio" name="sexc" id = "female"><label for = "female"><img src="logos/female.png"> 女</img></label>
+					<input type = "radio" name="sexc" id = "double"><label for = "double"><img src="logos/female.png"> <img src="logos/male.png">双</img></label>
+					<input type = "radio" name="sexc" id = "no"><label for = "no">无</label>
+
+				</td>
+			</tr>
+			<tr>
+				<td>单身？</td>
+				<td>
+					<select>
+						<option>是</option>
+						<option>否</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>男/女盆友可透露不？</td>
+				<td>
+					
+					<textarea>姓名</textarea>
+					<textarea>籍贯</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>生日</td>
+				<td>
+					<select>
+						<option> --选择年--</option>
+						<option> 2000年</option>
+						<option> 2001年</option>
+						<option> 2002年</option>
+						<option> 2003年</option>
+						<option> 2004年</option>
+						<option> 2005年</option>
+						<option> 2006年</option>
+						<option> 2007年</option>
+						<option> 2008年</option>
+						<option> 2009年</option>
+						<option> 2010年</option>
+						<option> 2011年</option>
+						<option> 2012年</option>
+						<option> 2013年</option>
+						<option> 2014年</option>
+						<option> 2015年</option>
+						<option> 2016年</option>
+						<option> 2017年</option>
+						<option> 2018年</option>
+						<option> 2019年</option>
+						<option> 2020年</option>
+						<option> 2021年</option>
+						<option> 1999年</option>
+						<option> 1998年</option>
+						<option selected="selected"> 7777年</option>
+					</select>
+					<select>
+						<option> --选择月--</option>
+						<option>1月</option>
+						<option>2月</option>
+						<option>3月</option>
+						<option>4月</option>
+						<option>5月</option>
+						<option>6月</option>
+						<option>7月</option>
+						<option>8月</option>
+						<option>9月</option>
+						<option>10月</option>
+						<option>11月</option>
+						<option>12月</option>
+					</select>
+					<select>
+						<option> --选择日--</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>						
+						<option>11</option>
+						<option>12</option>
+						<option>13</option>
+						<option>14</option>
+						<option>15</option>
+						<option>16</option>
+						<option>17</option>
+						<option>18</option>
+						<option>19</option>
+						<option>20</option>
+						<option>21</option>
+						<option>22</option>
+						<option>23</option>
+						<option>24</option>
+						<option>25</option>
+						<option>26</option>
+						<option>27</option>
+						<option>28</option>
+						<option>29</option>
+						<option>30</option>
+						<option>31</option>
+						
+					</select>
+				</td>
+			</tr>
+            
+			<tr>
+				<td>所在校区</td>
+				<td>
+					<select>
+					<option> --选择校区--</option>
+						<option>思明校区人上人</option>
+						<option>翔安校区</option>
+						<option>漳州校区</option>
+						<option>马来西亚校区</option>
+					</select>
+				</td>
+			</tr>	
+			<tr>
+				<td>所在学院</td>
+				<td>
+					<input type="text" value="信息学院"/>
+				</td>
+			</tr>	
+			
+			<tr>
+				<td>性格</td>
+				<td>
+					<input type="checkbox" name ="soul">外向
+					<input type="checkbox" name ="soul">内向
+					<input type="checkbox" name ="soul">冷酷
+					<input type="checkbox" name ="soul">热情
+					<input type="checkbox" name ="soul">奔放
+					<input type="checkbox" name ="soul">易怒
+					<input type="checkbox" checked="checked">以上都是					
+				</td>
+			</tr>	
+			
+			<tr>
+				<td>自学课程</td>
+				<td>
+					<input type="checkbox" name ="classes">高数
+					<input type="checkbox" name ="classes">大物
+					<input type="checkbox" name ="classes">C++
+					<input type="checkbox" name ="classes">HTML5+CSS										
+					<input type="checkbox" checked="checked">以上都是
+				</td>
+			</tr>
+			
+			<tr>
+				<td>自我介绍(700字以内)</td>
+				<td><textarea> 我是厦大的</textarea></td>
+			</tr>
+			
+			<tr>
+				<td></td>
+				<td><button onclick="alert('服务器已经收到(才怪)!')">确认提交</button></td>
+			</tr>
+		</table>
+	</head>
+	<body>
+	</body>
+</html>
